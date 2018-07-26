@@ -34,7 +34,7 @@ Script para Inserção dos dados:
 2 - insert(2.0).sql
 ```
 
-##Executar o projeto
+## Executar o projeto
 
 Para executar o projeto é necessário iniciar o server... e depois acessar o site localhost@3306...
 
