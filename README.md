@@ -79,8 +79,8 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 Este projeto é licensiado através da Licensa MIT
 
-## Acknowledgments
+## Reconhecimentos
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Agradecemos a contribuição da Professora Ceça Moraes pela contribuição e resolução de problemas que sem sua ajuda ainda estaríamos na fase pré-projeto
+* Nos inspiramos no combate contra corrupção para tornar um país melhor nas futuras gerações
+
