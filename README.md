@@ -75,9 +75,9 @@ Checar a página de guia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## Licensa
+## Licença
 
-Este projeto é licensiado através da Licensa MIT
+Este projeto é licenciado através da Licença MIT
 
 ## Reconhecimentos
 
