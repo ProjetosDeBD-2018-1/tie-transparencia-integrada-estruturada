@@ -11,10 +11,11 @@ Este tutorial especifica o uso do sistema TIE, fornecendo aos desenvolvedores e 
 
 Antes de executar o projeto é necessário instalar previamente: 
 
-```
-XAMPP versão 7.2.7 (PHP 7.2.7) ou superior - https://www.apachefriends.org/index.html
-SQLyog Community Edition - versão 13.0.1 ou superior - https://github.com/webyog/sqlyog-community/wiki/Downloads
-```
+
+* [XAMPP versão 7.2.7 (PHP 7.2.7)](https://www.apachefriends.org/index.html) ou superior que poderá ser usado de forma opcional para inicializar o servidor Apache e MySQL
+* [SQLyog Community Edition - versão 13.0.1](https://github.com/webyog/sqlyog-community/wiki/Downloads) ou superior que será utilizado 
+para criar o banco de dados e executar os scripts de criação e inserção.
+
 
 ### Instalando
 
@@ -53,7 +54,7 @@ imagem do resultado
 ```
 
 
-## Built With
+## Construído com 
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
@@ -73,11 +74,11 @@ Checar a página de guia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b
 * **Jadiel Eudes** - *Trabalho Inicial* - [Eudess](https://github.com/Eudess)
 * **Tiago Sitonio** - *Trabalho Inicial* - [TiagoPSS](https://github.com/TiagoPSS)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Ver também a lista de contribuidores [contributors](https://github.com//ProjetoDeBD/tie-transparencia-integrada-estruturada/contributors) que participaram neste projeto.
 
 ## Licença
 
-Este projeto é licenciado através da Licença MIT
+Este projeto é licenciado através da Licença padrão MIT
 
 ## Reconhecimentos
 
