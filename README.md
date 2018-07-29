@@ -24,15 +24,27 @@ Deve-se perstar atenção no nome do banco e senha que será necessário para al
 Scripts para criação do banco:
 
 ```
-1 - tietemp.sql
-2 - script_tie(2.0).sql
+1 - script_tie(2.0).sql
 ```
 
 Script para Inserção dos dados:
 
 ```
-1 - until finished.sql
-2 - insert(2.0).sql
+1 - parlamentar.sql
+2 - endereco.sql
+3 - proponente.sql
+4 - orgao.sql
+5 - proposta.sql
+6 - emenda.sql
+7 - partido.sql
+8 - convenio.sql
+9 - fornecedor.sql
+10 - pagamento.sql
+11 - termo_aditivo.sql
+12 - desembolso.sql
+13 - tipo_nota.sql
+14 - empenho.sql
+15 - empenho_desembolso.sql
 ```
 
 ## Executar o projeto
