@@ -1,35 +1,45 @@
 # TIE -Transparencia-Integrada-Estruturada
 
 
-Este tutorial especifica a instalação e uso do sistema TIE, fornecendo aos desenvolvedores e clientes as informações necessárias para o projeto, assim como para a realização dos testes e homologação do sistema.
+Este tutorial especifica o uso do sistema TIE, fornecendo aos desenvolvedores e clientes as informações necessárias para o projeto e  sua implementação, assim como para a realização dos testes e homologação do sistema.
 
 
 ## Getting Started
 
-O projeto foi desenvolvido utilisando o XAMPP e SQLyog e recomendamos sua execução com o mesmo, se o desenvolvedor ou usuário tem experiência e preferência em outro servidor PHP como por exemplo Wamp, EasyPHP e Ampps ou com a ferramenda de design de banco de dados MySQL Workbench fica cabível de acordo com as suas próprias necessidades.
+O projeto foi desenvolvido utilizando XAMPP e SQLyog, caso o desenvolvedor ou usuário tiver outras preferencias como por exemplo Wampp, EasyPHP e MySQL Workbench de acordo com suas necessidades. 
 
 ### Pré-requisitos
 
 Antes de executar o projeto é necessário instalar previamente: 
 
-* [XAMPP versão 7.2.7 (PHP 7.2.7)](https://www.apachefriends.org/index.html) ou superior que poderá ser usado de forma opcional para inicializar o servidor Apache e MySQL.
+* [XAMPP versão 7.2.7 (PHP 7.2.7)](https://www.apachefriends.org/index.html) ou superior que poderá ser usado de forma opcional para inicializar o servidor Apache e MySQL
 * [SQLyog Community Edition - versão 13.0.1](https://github.com/webyog/sqlyog-community/wiki/Downloads) ou superior que será utilizado 
 para criar o banco de dados e executar os scripts de criação e inserção.
 
+
 ### Instalando
 
-Primeiro deve-se iniciar o server através do XAMPP nas opções de Apache e MySQL, executar os scripts na ferramenta de edição do banco de dados(SQLyog) para criação do banco  de acordo com a ordem informada e finalmente os scripts inserção dos dados.
-Prestar atenção ao nome do usuário e do schema e senha que será necessário para alterar no arquivo de conexão com o banco no arquivo do diretório do projeto api/config/database.php e no login da página Web do servidor(se necessário login).
+1 - Para executar o projeto deve-se iniciar o server através do XAMPP nas opções de Apache e MySQL
 
-Scripts para criação do banco:
+2 - Para usuários do servidor XAMPP, clonar ou inserir o projeto na pasta "htdocs" que fica dentro da pasta xampp da unidade na qual foi instalada(no Windows por default é localizada na raiz do disco "C:\".
+
+3 - Inicializar o SQLyog com as credenciais de host, usuário e senha, recomenda-se as credenciais default.
+
+4 - Lembre-se do local onde irá descompactar a pasta tie_completo.zip, localizada na pasta scripts/tie completo do projeto, para carregar o script tie_completo.sql .
+
+5 - No SQLyog utilize a opção File>Open para carregar no editor o script do diretório onde está salvo.
+
+6 - Executar os scripts para inserção dos dados no banco de acordo com a ordem informada.
+
+Script para inicialização do banco somente necessário executar esse script:
 
 ```
 1 - tie_completo.sql
 ```
 
-Script para Inserção dos dados:
+Caso queira inserir um script por vez siga a ordem informada:
 
-```
+``` 
 1 - parlamentar.sql
 2 - endereco.sql
 3 - proponente.sql
@@ -47,21 +57,17 @@ Script para Inserção dos dados:
 15 - empenho_desembolso.sql
 ```
 
-## Executar o projeto
+## Executando o projeto
 
-No XAMPP, clonar ou inserir a pasta do projeto na pasta "htdocs" que está localizada dentro da pasta xampp na unidade na qual foi instalada e para executar o projeto entrar no endereço em um navegador web "localhost/tie".
+Para executar o projeto é necessário estar com o Apache e MySQL iniciados e acessar o endereço localhost/tie em um navegador web
 
-## Executar os testes
+Após instalação dos dados inicie o aplicativo e execute uma busca padrão do sistema TIE: Consulta 1.
 
-Após instalação dos dados inicie o aplicativo e execute uma busca padrão do sistema TIE: Consultar Valor Pago Antes do Início das Obras ou Listar Convênios com Pontos Fora da Curva.
 
 Para execultar uma consulta padrão: 
-1. Na tela principal, o usuário deve definir “Consultar Valor Pago Antes do Início das Obras” como tipo de consulta que deseja realizar.
-2. Ao selecionar a “Consultar Valor Pago Antes do Início das Obras” o sistema deve exibir os campos “nome do Convênio”, “Valor Total dos Pagamentos” e “Situação do Convênio”, para que o usuário possa preenchê-los.
+1. Na tela principal, o usuário deve definir “Consulta 1” como tipo de consulta que deseja realizar.
+2. Ao selecionar a “Consulta 1” o sistema deve exibir os campos “nome do parlamentar”, “data início” e “data fim”, para que o usuário possa preenchê-los.
 
-```
-imagem do resultado
-```
 
 ## Contribuição
 
@@ -87,4 +93,3 @@ Este projeto é licenciado através da Licença padrão MIT
 
 * Agradecemos a contribuição da Professora Ceça Moraes pela contribuição e resolução de problemas que sem sua ajuda ainda estaríamos na fase pré-projeto
 * Nos inspiramos no combate contra corrupção para tornar um país melhor nas futuras gerações
-
