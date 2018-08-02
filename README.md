@@ -6,7 +6,7 @@ Este tutorial especifica o uso do sistema TIE, fornecendo aos desenvolvedores e 
 
 ## Getting Started
 
-O projeto foi desenvolvido utilizando XAMPP e SQLyog, caso o desenvolvedor ou usuário tiver outras preferencias como por exemplo Wampp, EasyPHP e MySQL Workbench de acordo com suas necessidades. 
+O projeto foi desenvolvido utilizando XAMPP e SQLyog, caso o desenvolvedor ou usuário tiver outras preferencias como por exemplo Wampp, EasyPHP e MySQL Workbench utilizando de acordo com suas necessidades. 
 
 ### Pré-requisitos
 
@@ -21,7 +21,7 @@ para criar o banco de dados e executar os scripts de criação e inserção.
 
 1 - Para executar o projeto deve-se iniciar o server através do XAMPP nas opções de Apache e MySQL
 
-2 - Para usuários do servidor XAMPP, clonar ou inserir o projeto na pasta "htdocs" que fica dentro da pasta xampp da unidade na qual foi instalada(no Windows por default é localizada na raiz do disco "C:\".
+2 - Para usuários do servidor XAMPP, clonar ou inserir o projeto(pasta "tie") dentro da pasta "htdocs" que fica dentro da pasta xampp da unidade na qual foi instalada(no Windows por default é localizada na raiz do disco "C:\".
 
 3 - Inicializar o SQLyog com as credenciais de host, usuário e senha, recomenda-se as credenciais default.
 
