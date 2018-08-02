@@ -1,30 +1,30 @@
 # TIE -Transparencia-Integrada-Estruturada
 
 
-Este tutorial especifica o uso do sistema TIE, fornecendo aos desenvolvedores e clientes as informações necessárias para o projeto e  sua implementação, assim como para a realização dos testes e homologação do sistema.
+Este tutorial especifica a instalação e uso do sistema TIE, fornecendo aos desenvolvedores e clientes as informações necessárias para o projeto, assim como para a realização dos testes e homologação do sistema.
 
 
 ## Getting Started
 
+O projeto foi desenvolvido utilisando o XAMPP e SQLyog e recomendamos sua execução com o mesmo, se o desenvolvedor/usuário tem experiência e preferência em outro servidor PHP como por exemplo Wamp, EasyPHP e Ampps ou com a ferramenda de design de banco de dados MySQL Workbench fica cabível de acordo com as suas próprias necessidades.
 
 ### Pré-requisitos
 
 Antes de executar o projeto é necessário instalar previamente: 
 
-
-* [XAMPP versão 7.2.7 (PHP 7.2.7)](https://www.apachefriends.org/index.html) ou superior que poderá ser usado de forma opcional para inicializar o servidor Apache e MySQL
+* [XAMPP versão 7.2.7 (PHP 7.2.7)](https://www.apachefriends.org/index.html) ou superior que poderá ser usado de forma opcional para inicializar o servidor Apache e MySQL.
 * [SQLyog Community Edition - versão 13.0.1](https://github.com/webyog/sqlyog-community/wiki/Downloads) ou superior que será utilizado 
 para criar o banco de dados e executar os scripts de criação e inserção.
 
-
 ### Instalando
 
-Para executar o projeto deve-se iniciar o server através do XAMPP nas opções de Apache e MySQL, executar os scripts para criação do banco  de acordo com a ordem informada e após inserção dos dados.
-Deve-se perstar atenção no nome do banco e senha que será necessário para alterar no script de criação no banco <tietemp.sql> e no login da página Web do projeto.
+Primeiro deve-se iniciar o server através do XAMPP nas opções de Apache e MySQL, executar os scripts na ferramenta de edição do banco de dados(SQLyog) para criação do banco  de acordo com a ordem informada e finalmente os scripts inserção dos dados.
+Prestar atenção ao nome do usuário e do schema e senha que será necessário para alterar no arquivo de conexão com o banco no arquivo do diretório do projeto api/config/database.php e no login da página Web do servidor(se necessário login).
+
 Scripts para criação do banco:
 
 ```
-1 - script_tie(2.0).sql
+1 - tie_completo.sql
 ```
 
 Script para Inserção dos dados:
@@ -49,7 +49,7 @@ Script para Inserção dos dados:
 
 ## Executar o projeto
 
-Para executar o projeto é necessário iniciar o server... e depois acessar o site localhost@3306...
+No XAMPP, clonar ou inserir a pasta do projeto na pasta "htdocs" que está localizada dentro da pasta xampp na unidade na qual foi instalada e para executar o projeto entrar no endereço em um navegador web "localhost/tie".
 
 ## Executar os testes
 
@@ -59,18 +59,11 @@ Após instalação dos dados inicie o aplicativo e execute uma busca padrão do 
 
 Para execultar uma consulta padrão: 
 1. Na tela principal, o usuário deve definir “Consultar Valor Pago Antes do Início das Obras” como tipo de consulta que deseja realizar.
-2. Ao selecionar a “Consultar Valor Pago Antes do Início das Obras” o sistema deve exibir os campos “nome do parlamentar”, “data início” e “data fim”, para que o usuário possa preenchê-los.
+2. Ao selecionar a “Consultar Valor Pago Antes do Início das Obras” o sistema deve exibir os campos “nome do Convênio”, “Valor Total dos Pagamentos” e “Situação do Convênio”, para que o usuário possa preenchê-los.
 
 ```
 imagem do resultado
 ```
-
-
-## Construído com 
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contribuição
 
