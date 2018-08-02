@@ -6,7 +6,7 @@ Este tutorial especifica a instalação e uso do sistema TIE, fornecendo aos des
 
 ## Getting Started
 
-O projeto foi desenvolvido utilisando o XAMPP e SQLyog e recomendamos sua execução com o mesmo, se o desenvolvedor/usuário tem experiência e preferência em outro servidor PHP como por exemplo Wamp, EasyPHP e Ampps ou com a ferramenda de design de banco de dados MySQL Workbench fica cabível de acordo com as suas próprias necessidades.
+O projeto foi desenvolvido utilisando o XAMPP e SQLyog e recomendamos sua execução com o mesmo, se o desenvolvedor ou usuário tem experiência e preferência em outro servidor PHP como por exemplo Wamp, EasyPHP e Ampps ou com a ferramenda de design de banco de dados MySQL Workbench fica cabível de acordo com as suas próprias necessidades.
 
 ### Pré-requisitos
 
@@ -54,8 +54,6 @@ No XAMPP, clonar ou inserir a pasta do projeto na pasta "htdocs" que está local
 ## Executar os testes
 
 Após instalação dos dados inicie o aplicativo e execute uma busca padrão do sistema TIE: Consultar Valor Pago Antes do Início das Obras ou Listar Convênios com Pontos Fora da Curva.
-
-### Executar teste
 
 Para execultar uma consulta padrão: 
 1. Na tela principal, o usuário deve definir “Consultar Valor Pago Antes do Início das Obras” como tipo de consulta que deseja realizar.
