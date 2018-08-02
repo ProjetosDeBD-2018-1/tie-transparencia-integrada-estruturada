@@ -65,8 +65,8 @@ Após instalação dos dados inicie o aplicativo e execute uma busca padrão do 
 
 
 Para execultar uma consulta padrão: 
-1. Na tela principal, o usuário deve definir “Consulta 1” como tipo de consulta que deseja realizar.
-2. Ao selecionar a “Consulta 1” o sistema deve exibir os campos “nome do parlamentar”, “data início” e “data fim”, para que o usuário possa preenchê-los.
+1. Na tela principal, o usuário deve definir “Listar Convênios com Pontos Fora da Curva” como tipo de consulta que deseja realizar.
+2. Ao selecionar a “Listar Convênios com Pontos Fora da Curva” o sistema deve exibir os campos “nome do parlamentar”, “data início” e “data fim”, para que o usuário possa preenchê-los.
 
 
 ## Contribuição
