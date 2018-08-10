@@ -89,11 +89,11 @@ Checar a página de guia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b
 
 ## Autores
 
-* **Edson Fagner** - *Trabalho Inicial* - [everton-nv](https://github.com/everton-nv)
-* **Everton do Nascimento** - *Trabalho Inicial* - [Crissky](https://github.com/Crissky)
-* **Evele Lemos** - *Trabalho Inicial* - [lemosevele](https://github.com/lemosevele)
-* **Jadiel Eudes** - *Trabalho Inicial* - [Eudess](https://github.com/Eudess)
-* **Tiago Sitonio** - *Trabalho Inicial* - [TiagoPSS](https://github.com/TiagoPSS)
+* [**Edson Fagner**](https://github.com/Crissky) - *Trabalho Inicial*
+* [**Evele Lemos**](https://github.com/lemosevele) - *Trabalho Inicial*
+* [**Everton do Nascimento**](https://github.com/everton-nv) - *Trabalho Inicial*
+* [**Jadiel Eudes**](https://github.com/Eudess) - *Trabalho Inicial*
+* [**Tiago Sitonio**](https://github.com/TiagoPSS) - *Trabalho Inicial*
 
 Ver também a lista de contribuidores [contributors](https://github.com//ProjetoDeBD/tie-transparencia-integrada-estruturada/contributors) que participaram neste projeto.
 
