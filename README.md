@@ -103,5 +103,5 @@ Este projeto é licenciado através da Licença padrão MIT
 
 ## Reconhecimentos
 
-* Agradecemos a contribuição da Professora Ceça Moraes pela contribuição e resolução de problemas que sem sua ajuda ainda estaríamos na fase pré-projeto
+* Agradecemos a contribuição da Professora [**Ceça Moraes**](https://github.com/cecamoraes) pela contribuição e resolução de problemas que sem sua ajuda ainda estaríamos na fase pré-projeto
 * Nos inspiramos no combate contra corrupção para tornar um país melhor nas futuras gerações
