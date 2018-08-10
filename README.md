@@ -1,7 +1,7 @@
 # TIE -Transparencia-Integrada-Estruturada
 
 
-Este tutorial especifica o uso do sistema TIE, fornecendo aos desenvolvedores e clientes as informações necessárias para o projeto e  sua implementação, assim como para a realização dos testes e homologação do sistema.
+Este tutorial especifica o uso do sistema TIE, fornecendo aos desenvolvedores e clientes as informações necessárias sobre o projeto e  sua implementação, assim como para a realização dos testes e homologação do sistema.
 
 
 ## Getting Started
@@ -14,24 +14,24 @@ Antes de executar o projeto é necessário instalar previamente:
 
 * [XAMPP versão 7.2.7 (PHP 7.2.7)](https://www.apachefriends.org/index.html) ou superior que poderá ser usado de forma opcional para inicializar o servidor Apache e MySQL
 * [SQLyog Community Edition - versão 13.0.1](https://github.com/webyog/sqlyog-community/wiki/Downloads) ou superior que será utilizado 
-para criar o banco de dados e executar os scripts de criação e inserção.
+para executar os scripts de criação e inserção de dados no banco de dados.
 
 
 ### Instalando
 
-1 - Para executar o projeto deve-se iniciar o server através do XAMPP nas opções de Apache e MySQL
+1 - Para executar o projeto deve-se iniciar o servidor e o SGBD (Sistema de Gerenciamento de Banco de Dados) do XAMPP clicando nos botões "start" dos módulos Apache e MySQL.
 
-2 - Para usuários do servidor XAMPP, clonar ou inserir o projeto(pasta "tie") dentro da pasta "htdocs" que fica dentro da pasta xampp da unidade na qual foi instalada(no Windows por default é localizada na raiz do disco "C:\".
+2 - Para usuários do servidor XAMPP, clonar ou inserir o projeto (pasta "tie") dentro da pasta "htdocs" que fica dentro da pasta "xampp" da unidade na qual foi instalada (no Windows por padrão é localizada na raiz do disco "C:\".
 
-3 - Inicializar o SQLyog com as credenciais de host, usuário e senha, recomenda-se as credenciais default.
+3 - Inicie o SQLyog com as credenciais de host, usuário e senha.<!-- , recomenda-se utilizar as credenciais padrões. -->
 
-4 - Lembre-se do local onde irá descompactar a pasta tie_completo.zip, localizada na pasta scripts/tie completo do projeto, para carregar o script tie_completo.sql .
+4 - Descompacte o arquivo tie_completo.zip, ele localizado na pasta "scripts/tie completo" do projeto, para carregar o script tie_completo.sql.
 
-5 - No SQLyog utilize a opção File>Open para carregar no editor o script do diretório onde está salvo.
+5 - No SQLyog utilize a opção File>Open para carregar no editor o script tie_completo.sql.
 
-6 - Executar os scripts para inserção dos dados no banco de acordo com a ordem informada.
+6 - Execute o script para inserção dos dados no banco.
 
-Script para inicialização do banco somente necessário executar esse script:
+Para inicialização do banco, será necessário executar somente esse script:
 
 ```
 1 - tie_completo.sql
@@ -56,17 +56,27 @@ Caso queira inserir um script por vez siga a ordem informada:
 14 - empenho.sql
 15 - empenho_desembolso.sql
 ```
+7 - Abra o arquivo config.php em um editor de texto para configurar o seu host, usuário e senha. O arquivo está localizado da pasta "tie".
+
+```
+/** nome do host MySQL */
+define('DATABASE_HOST', '127.0.0.1');
+/** Usuário do banco de dados MySQL */
+define('DATABASE_USER', 'root');
+/** Senha do banco de dados MySQL */
+define('DATABASE_PASSWORD', '');
+```
 
 ## Executando o projeto
 
 Para executar o projeto é necessário estar com o Apache e MySQL iniciados e acessar o endereço localhost/tie em um navegador web
 
-Após instalação dos dados inicie o aplicativo e execute uma busca padrão do sistema TIE: Consulta 1.
+Após instalação dos dados inicie o aplicativo e execute uma busca padrão do sistema TIE no menu consultas.
 
 
 Para execultar uma consulta padrão: 
-1. Na tela principal, o usuário deve definir “Listar Convênios com Pontos Fora da Curva” como tipo de consulta que deseja realizar.
-2. Ao selecionar a “Listar Convênios com Pontos Fora da Curva” o sistema deve exibir os campos “nome do parlamentar”, “data início” e “data fim”, para que o usuário possa preenchê-los.
+1. Em qualquer tela do sistema, o usuário pode selecionar uma consulta no menu consultas. (A primeira vez que uma consulta for executada, ela pode demorar um pouco devido a grande quantidade de dados no banco).
+2. Após selecionar uma consulta, o usuário pode navegar pelas Tabs para visualizar os dados da tabela ou o gráfico com informações gerais sobre a consulta.
 
 
 ## Contribuição
