@@ -61,8 +61,10 @@ Caso queira inserir um script por vez siga a ordem informada:
 ```
 /** nome do host MySQL */
 define('DATABASE_HOST', '127.0.0.1');
+
 /** Usuário do banco de dados MySQL */
 define('DATABASE_USER', 'root');
+
 /** Senha do banco de dados MySQL */
 define('DATABASE_PASSWORD', '');
 ```
